@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.Set;
 
 @RestController
-@RequestMapping("")
+@RequestMapping("order")
 public class CartController {
     private final CartService service;
 
